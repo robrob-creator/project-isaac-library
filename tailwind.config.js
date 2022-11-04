@@ -25,7 +25,11 @@ module.exports = {
       44: '180px',
       48: '487px'
     },
-    extend: {}
+    extend: {
+      fontFamily: {
+        poppins: ['Poppins', 'sans-serif']
+      }
+    }
   },
   plugins: [],
   purge: {
