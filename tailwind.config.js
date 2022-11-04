@@ -10,21 +10,11 @@ module.exports = {
       danger: '#CD0E61',
       failure: '#CD0E61',
       disabled: '#DDDDDD',
+      gray: '#6E7191',
       white: '#FCFCFC',
       black: '#14142B'
     },
-    spacing: {
-      1: '8px',
-      1.2: '9px',
-      1.3: '10px',
-      2: '12px',
-      3: '16px',
-      4: '22px',
-      5: '32px',
-      6: '48px',
-      44: '180px',
-      48: '487px'
-    },
+
     extend: {}
   },
   plugins: [],
