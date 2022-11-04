@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { Card } from 'project-isaac-components'
+import { Card, Footer } from 'project-isaac-components'
 import 'project-isaac-components/dist/index.css'
 
 const App = () => {
@@ -49,7 +49,7 @@ const App = () => {
     }
   ])
   return (
-    <>
+    <div style={{ margin: '5%' }}>
       {data.map((item, index) => {
         return (
           <Card
@@ -63,7 +63,8 @@ const App = () => {
           />
         )
       })}
-    </>
+      <Footer />
+    </div>
   )
 }
 
